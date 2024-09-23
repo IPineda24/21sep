@@ -10,14 +10,20 @@
             width: 300px;
             height: auto;
         }
+        #elMensaje {
+            display: none; /* El texto está oculta por defecto */
+            
+        }
     </style>
 </head>
 <body>
     <h1>Haz clic para mostrar la imagen</h1>
     <button onclick="mostrarImagen()">Mostrar Imagen</button>
+    <button onclick="mostrarMensaje()">Mostrar Mensaje</button>
     <br><br>
     <img id="miImagen" src="img/flower.jpg" alt="Imagen de ejemplo">
-
-  <script src="main.js"></script>
+    <p id="elMensaje">¡Feliz Día de las Flores Amarillas! 🌼🌻 Hoy celebramos la alegría y la esperanza que representan estas hermosas flores. Que su color vibrante llene tu día de luz y buenos momentos. ¡Disfruta de la belleza que nos rodea!</p>
+    
+    <script src="main.js"></script>
 </body>
-</html>
+</html> 
